@@ -9,8 +9,6 @@ from scrape import open_parse_link
 store_name =[]
 review_list = []
 r1, r2, r3, r4, r5 = [], [], [], [], []
-error = ["null", "null", "null", "null", "null",]
-
 
 df = pd.read_csv('trustpilot.csv')
 
